@@ -1,0 +1,161 @@
+\documentclass{article}
+
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{amssymb}
+\usepackage{setspace}
+\usepackage{tikz}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{float}
+\usepackage{ragged2e}
+\usepackage{multicol}
+\usepackage[export]{adjustbox}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage[margin=1in]{geometry}
+\usepackage[normalem]{ulem}
+\usepackage{hyperref}
+
+\pagestyle{fancy}
+\fancyhf{}
+\chead{5293}
+\rhead{The Metal Crusaders}
+\lhead{\textit{The Innovation Challenge}}
+\rfoot{\thepage}
+
+\colorlet{yellowOrange}{white!50!yellow!70!orange}
+\newcommand{\highlight}[1]{%
+  \colorbox{yellowOrange}{$\displaystyle#1$}}
+
+\title{\textbf{Metal Crusaders Engineering Notebook 2021}}
+\author{Team 5293}
+\date{January - Today 2021}
+
+\setlength{\parindent}{3em}
+\setlength{\parskip}{1em}
+\setlength{\columnsep}{1cm}
+
+\begin{document}
+
+\pagenumbering{arabic}
+
+\maketitle
+\newpage
+%find out how to include links in the ToC
+%\frontmatter
+
+\tableofcontents
+
+\newpage
+\section{The Prompt}
+
+\paragraph{PROMPT:}``Science, technology, engineering, and math (STEM) have always been the catalyst for innovation that moves our world forward. As our societies continue to evolve and become more inclusive and connected, our sports - and the activities that make us physically and mentally strong - must change along with us. This means redefining where and how we move and play. We actively play and move for ourselves, but also with and as a community to attain optimum health. This means inventing and innovating places, ways, sports, tools, and concepts so people of all abilities and skill levels can thrive through active play and movement.
+
+\textit{\textbf{Identify a problem or opportunity and design a solution to help people (or a community of people) keep, regain, or achieve optimum physical and/or mental health and fitness through active play or movement.}}''
+
+\subsection{Submission Information}
+
+\begin{itemize}
+  \item two contact emails (must be mentors)
+  \item time zone
+  \item project title
+  \item project described in brief phrase (10-word limit)
+  \item executive summary
+  \begin{enumerate}
+    \item Describe the problem/opportunity the team is focusing on (200-word limit).
+    \item Describe how the team proposes to solve the problem/opportunity (200-word limit).
+    \item What technology the team used (or planning to use) in the design or solution development? (This does not have to be a comprehensive list but will help align any specific technical expertise a judge may have to the judging GROUP)(100-word limit).
+  \end{enumerate}
+\end{itemize}
+\textit{*Think of the executive summary as a very brief overview; not all of the challenge needs to be figured out! It's epected that teams are going to expand upon the solution between submission deadline and interview.}
+
+\begin{center}
+  \color{red}{\Huge{\textbf{\emph{DUE MARCH 4TH}}}}
+\end{center}
+
+\section{Brainstorming Ideas}
+
+\subsection{Finding a Problem}
+(already done ideas)
+\begin{itemize}
+  \item Ring Fit, Fidget Cube
+\end{itemize}
+(our ideas)
+\begin{itemize}
+  \item Working out (obesity, heart disease, lung disease, diabetes)
+  \item Wearable fitness technology
+  \begin{itemize}
+    \item A game (maybe kind of like Pokemon Go?)
+    \begin{itemize}
+      \item A game that has motivation behind it
+      \begin{itemize}
+        \item Health, body image, or something in the game
+      \end{itemize}
+    \end{itemize}
+    \item Wearable fitness technology
+  \end{itemize}
+  \item \highlight{ADHD}
+  \begin{itemize}
+    \item Focus puzzles; each piece that snaps together causes a vibration, extends focus on the puzzle; improves hand eye coordination
+    \item Fitness aspect?
+    \item Device that blocks out background noise (but like not exactly headphones) using white noise (like AirPods)
+    \begin{itemize}
+      \item Noise-blocking earset that uses sensors to detect when background is above 70dB;; fitness aspect?
+    \end{itemize}
+  \end{itemize}
+  \item \highlight{OCD}
+  \begin{itemize}
+    \item All about sensors: touch
+    \item Device for sports: when your hands are no longer making contact with (for example) the basketball, sensor beeps in the ear to refocus the player
+    \item Touch sensor beeps when contact is lost $\ >\ 3$ seconds?
+  \end{itemize}
+  \item \textbf{Sleep deprivation}
+    \begin{itemize}
+      \item An alarm clock?
+    \end{itemize}
+  \item \sout{Motivation}
+  \item \sout{Anxiety}
+  \item \sout{Eating disorders}
+  \item \sout{Paranoia}
+  \item Drug/alcohol abuse
+  \item \highlight{Loneliness} - \textbf{Winning Idea}
+  \begin{itemize}
+    \item Interact with people through some sort of fitness game ?
+    \item Have an ability to chat and socialize or be competitive if you want
+    \item Mainly focus on having exercises that can easily be done at home without any equipment; just some space
+    \item Probably try to limit chat functions so toxicity is limited
+    \item Play with others towards a goal (defeating a boss, completing a minigame together (requires teamwork))
+    \begin{itemize}
+      \item Could put a spin on a sport and use those concepts for the minigames
+      \item For loneliness I was thinking like a app or like a machine that lets you watch movies and you can see your friends too?
+      \item For the games we should have communities/teams within and maybe have weekly team goals to aim for, I’m thinking of how to build a sense of community through a game w/o having direct online friends
+    \end{itemize}
+  \end{itemize}
+  \item \sout{Color blindness}
+  \item Sitting for too long/sedentary lifestyles
+  \item Blindness
+    \begin{itemize}
+      \item Detecting any moving persons/objects within 5 ft to minimize dangerous situations/collisions
+    \end{itemize}
+  \item Deafness
+  \item People who are physically unable to carry/hold stuff
+  \begin{itemize}
+    \item Carrier robot thing; daily companion for people with disabilities
+    \item Maybe speech/sensor recognition/detection to really limit contact
+  \end{itemize}
+  \item \sout{Waking up}
+  \item Hygiene (maybe something that limits physical contact)
+  \begin{itemize}
+    \item Sensors that detect how far someone is? Could be a pandemic-related device
+    \item Detecting heat signatures? (can we even get a thermal imaging camera?) 6 feet away or closer
+    \item Environment-friendly disposable gloves or something
+  \end{itemize}
+  \item Physical therapy and mental health for patients in nursing homes
+  \begin{itemize}
+    \item Create a robot that helps elders do easy workouts and encourages them
+  \end{itemize}
+\end{itemize}
+
+\end{document}
